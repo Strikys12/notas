@@ -1,0 +1,48 @@
+Programación orientada a objetos.
+
+Función (O método en POO) es un bloque de código que realiza
+una tarea especifica.
+
+Los métodos pertenecen a una clase y definen el comportamiento 
+objetos creados a partir de ella.
+
+Estructura básica en java:
+public int sumar (int a, intb){
+    return a + b;
+}
+
+public: Es el acceso, en este caso nos indica que es publica.
+int: tipo de dato de resultado.
+sumar: nombre del método.
+
+Características:
+
+- Pueden recibir parámetros de entrada.
+- Devuelve o no un valor de saida.
+- Promueven la modularidad, la reutilización y la claridad del código.
+
+Ejemplo.
+
+class Calculadora{
+    public int sumar(int a, int b){
+        return a + b;
+    }
+}
+
+Nota: Una clase no es un objeto, pero describe como serán los objetos.
+
+
+Ejemplo objeto:
+(instancia de la clase)
+
+public class Main{
+    public static void main(String[] args){
+        Coche miCoche = new Coche("Toyota", "Corolla");
+
+        //Usar los métodos del objeto.
+
+        miCoche.acelerar(50);
+        miCoche.frenar(20);
+        miCoche.mostrarInformación();
+    }
+}
