@@ -6,6 +6,8 @@ una tarea especifica.
 Los métodos pertenecen a una clase y definen el comportamiento 
 objetos creados a partir de ella.
 
+
+
 Estructura básica en java:
 public int sumar (int a, intb){
     return a + b;
@@ -46,3 +48,32 @@ public class Main{
         miCoche.mostrarInformación();
     }
 }
+
+------------------------- CONSTRUCTORES ------------------
+
+
+Sobrecarga de constructores: Definir múltiples constructores con diferente número
+/tipo de párametros.
+
+- Permite crear objetos con diferentes niveles de detalle:
+
+
+
+
+
+
+
+
+------------------------------MODULO DE TAREAS-----------------------------
+
+Carpetas:
+- models: es la carpeta que tiene la definición de datos que estarán de nuestro módulo.
+ Ejemplo: 
+ Name
+ Status
+ Descriptiopn
+
+
+
+- use cases 
+- controller
